@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var Titleimg: UIImageView!
+    @IBOutlet weak var background: UIImageView!
+    @IBOutlet weak var btnwel: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.red
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func onPressed(_ sender: Any) {
+        background.isHidden = false;
+        Titleimg.isHidden = false;
+        if !btnwel.isHidden
+        {
+        btnwel.isHidden = true;
+        }
+    }
 }
 
