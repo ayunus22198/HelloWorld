@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnwel: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setupnjjj after loading the view, typically from a nib.
         view.backgroundColor = UIColor.red
     }
 
